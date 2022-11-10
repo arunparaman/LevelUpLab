@@ -39,6 +39,16 @@
 				"ms-mssql.mssql",
 				"ms-dotnettools.blazorwasm-companion"
 			]
+		},
+		"codespaces": {
+			"repositories": {
+				"octocloudlabs/octo-cats": {
+					"permissions": {
+						"contents": "read",
+						"pull_requests": "write"
+					}
+				}
+			}
 		}
 	},
 	"forwardPorts": [
